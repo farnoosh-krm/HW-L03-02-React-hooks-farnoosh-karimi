@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+$shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+$border-round: 10px;
+
+$card-bg-color: rgba(255, 255, 255, 0.5);
+
+$input-bg-color: rgb(238, 243, 255);
+$input-bg-color-focus: rgb(204, 217, 253);
+$border-color: rgb(124, 159, 255);
+$input-label-color: rgb(61, 61, 61);
+
+$add-btn: rgb(34, 222, 34);
+$add-btn-hover: rgb(9, 54, 9);
+$add-btn-active: rgba(34, 222, 34, 0.492);
+
+$text-color-btn1: white;
+$text-color-btn2: rgb(36, 36, 36);
+$remove-btn: red;
+$remove-btn-hover: rgb(82, 0, 0);
+$remove-btn-active: rgba(255, 0, 0, 0.4);
+
+$text-header-color: gray;

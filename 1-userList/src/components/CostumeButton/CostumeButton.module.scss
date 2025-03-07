@@ -1,0 +1,49 @@
+@import "../styles/variables.scss";
+
+// @mixin button-color($color) {
+//   background-color: $color;
+// }
+
+.btnStyle {
+  margin-top: 18px;
+  padding: 5px;
+  border-radius: $border-round;
+  box-shadow: $shadow;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+
+  font-family: "Poppins";
+
+  &.add {
+    background-color: $add-btn;
+    color: $text-color-btn2;
+    height: 40px;
+    width: 120px;
+
+    &:hover {
+      background-color: $add-btn-hover;
+      color: $text-color-btn1;
+      cursor: pointer;
+    }
+    &:active {
+      background-color: $add-btn-active;
+    }
+  }
+
+  &.remove {
+    background-color: $remove-btn;
+    color: $text-color-btn1;
+    width: 80px;
+    font-size: 12px;
+    margin: 0;
+
+    &:hover {
+      background-color: $remove-btn-hover;
+      cursor: pointer;
+    }
+    &:active {
+      background-color: $remove-btn-active;
+    }
+  }
+}

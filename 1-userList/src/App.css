@@ -1,0 +1,31 @@
+table {
+  font-family: "Poppins";
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+th {
+  color: rgb(57, 57, 57);
+}
+
+tr:hover {
+  background-color: rgba(166, 190, 255, 0.699);
+}
+
+td,
+th {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+thead {
+  background-color: #a5a5a5;
+}
+
+td:last-child {
+  width: 120px;
+}
